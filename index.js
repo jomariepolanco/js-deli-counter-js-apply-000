@@ -5,7 +5,7 @@ var katzDeliLine = [];
 //   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 // }
 let i = 0;
-function takeANumber(katzDeliLine) { 
+function takeANumber(katzDeliLine) {
   i++;
   katzDeliLine.push(i);
   return `Hi, ${i}.`;
